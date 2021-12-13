@@ -81,6 +81,10 @@
                 <div class="col mt-3">
                     <div class="p-3 border border-danger bg-light">
                         <h6><i class="fas fa-pen-fancy"></i> INFORMACION SOLICITADA</h6>
+                        
+                        <textarea name="" id="rdi_contenido" cols="30" rows="15" placeholder="Escriba Aqui su Consulta..."></textarea>
+
+                       
                     </div>
 
                 </div>
