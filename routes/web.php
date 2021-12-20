@@ -25,3 +25,5 @@ Route::view("/ingreso_admin","ingreso_admin")->name("ingreso_admin");
 
 Route::view("/admin_home","admin_home")->name("admin_home");
 Route::view("/admin_ingreso_proyecto","admin_ingreso_proyecto")->name("admin_ingreso_proyecto");
+Route::view("/admin_proyectos","admin_proyectos")->name("admin_proyectos");
+Route::view("/admin_solicitudes","admin_solicitudes")->name("admin_solicitudes");

@@ -9,9 +9,9 @@
     </div>
     
 
-    <div class="position-absolute bottom-0 start-50 translate-middle-x mb-5">
+    <div class="position-absolute bottom-0 start-50 translate-middle-x mb-5 pb-5">
 
-      <div class="card mt-5 border-danger " style="width: 50rem;">
+      <div class="card mt-5 border-danger pb-5" style="width: 50rem;">
 
         <div class="card-header text-center">
           <h2>Registro de Proyecto <i class="fas fa-building"></i></h2>
@@ -52,3 +52,4 @@
   </main>
 
 @endsection
+
