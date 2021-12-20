@@ -13,21 +13,31 @@
                 <div class="card text-center rounded border-danger mt-5" style="width: 100%;">
                 
                     <div class="card-header border-danger" style="background: rgb(219, 219, 219)">
-                    <h4>Servicio de Gestion RDI</h4>
+                    <h4>Gestion de Proyectos <i class="fas fa-building"></i></h4>
                     </div>
                     <div class="card-body" style='background: rgb(219, 219, 219)'>
                         <table class="table table-dark table-striped">
                             <thead>
                                 <tr>
-                                <th scope="col">Fecha</th>
-                                <th scope="col">Proyecto</th>
-                                <th scope="col">Especialidad</th>
-                                <th scope="col">Remitente</th>
-                                <th scope="col">Accion</th>
+                                <th scope="col">Nombre Proyecto</th>
+                                <th scope="col">Fecha Inicio</th>
+                                <th scope="col">Estado</th>
+                                <th scope="col">#</th>
                                 </tr>
                             </thead>
+                            <tbody id="tabla_proyectos_usuario">
+                                <td>Test</td>
+                                <td>Test</td>
+                                <td>Test</td>
+                                <td>
+                                    <a href="{{route('home_rdi')}}" class="btn btn-danger">RDI <i class="fas fa-archive"></i></a>
+
+                                </td>
+                                
+
+                            </tbody>
                         </table>
-                    <a href="#" class=" pt-1 btn btn-danger">Generar RDI
+                    
 
 
                     </a>

@@ -19,7 +19,7 @@
                 <div class="p-3 border border-danger bg-light ">
                     <h6><i class="fas fa-archive"></i> N° RDI</h6>
                     {{-- Solo Cambiar el Placeholder para mostrar el Numro del RDI --}}
-                    <input id="rdi_numero" class="form-control text-center" type="text" placeholder="Numero RDI" disabled>
+                    <input id="rdi_numero" class="form-control text-center" type="text" value="" disabled>
                 </div>
               </div>
               <div class="col">
@@ -49,7 +49,7 @@
               <div class="col">
                   <div class="p-3 border border-danger bg-light">
                       <h6><i class="fas fa-user-edit"></i> PREPARADO POR: </h6>
-                      {{-- Autocompletar nombre de usuario por Javascript--}}
+                      {{-- Autocompletar nombre de usuario por Javascript cambiar el value--}}
                       <input type="text" class="form-control text-center" id="rdi_remitente" value="Nombre de Usuario" disabled>
 
                   </div>
@@ -73,11 +73,11 @@
                     <div class="p-2 border border-danger bg-light">
                         <h6><i class="fas fa-book"></i> Tema</h6>
 
-                        <input class="form-control" type="text" placeholder="Cuenta de 100 Caracteres">
+                        <input maxlength="100" class="form-control" type="text" placeholder="Cuenta de 100 Caracteres">
 
                     </div>
                 </div>
-
+                {{--Agregar maxlength segun la base de datos--}}
                 <div class="col mt-3">
                     <div class="p-3 border border-danger bg-light">
                         <h6><i class="fas fa-pen-fancy"></i> INFORMACION SOLICITADA</h6>
@@ -86,6 +86,38 @@
 
                        
                     </div>
+
+                </div>
+
+                <div class="col mt-3">
+                    <div class="p-3 border border-danger bg-light">
+                        <h6><i class="fas fa-file"></i> PLANOS REF </h6>
+                        
+                        <input type="file" class="form-control-file mt-5" id="rdi_documento1">
+
+                        <input type="file" class="form-control-file mt-3" id="rdi_documento2">
+                    
+                        <input type="file" class="form-control-file mt-3" id="rdi_documento3">
+                    
+                    </div>
+
+                </div>
+
+                <div class="col mt-3">
+                    <div class="p-3 border border-danger bg-light">
+                        <h6><i class="fas fa-location-arrow"></i> Ubicacion identificar ejes</h6>
+
+                        <input class="form-control" type="text">
+
+
+                    </div>
+
+                </div>
+
+                <div class="col mt-3">
+
+                    <button id="btn_ingreso_rdi" type="button" class="btn btn-danger">Ingresar RDI</button>
+
 
                 </div>
 

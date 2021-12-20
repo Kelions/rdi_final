@@ -24,7 +24,7 @@
             <div class="col-12 col-md-12 col-lg-12">
                 <form>
                     <div class="mb-3">
-                      <label for="usuario_nombre" class="form-label">Nombre de Usuario <i class="fas fa-user"></i> </label>
+                      <label for="usuario_nombre" class="form-label">Nombre de Usuario Administrador <i class="fas fa-user"></i> </label>
                       <input type="text" class="form-control" id="usuario_nombre">
                     </div>
                     <div class="mb-3">
@@ -35,16 +35,13 @@
                     </div>
                     <div class="text-center">
 
-                    <button type="button" id="btn_ingreso_usuario" class="btn btn-danger">Ingresar <i class="fas fa-sign-in-alt"></i></button>
+                    <button type="button" id="btn_admin_ingreso" class="btn btn-danger">Ingresar <i class="fas fa-sign-in-alt"></i></button>
                 
-                    <a href="{{route('registro')}}" class="btn btn-danger">Registrarse <i class="fas fa-users"></i></a>
+                    <a href="{{route('ingreso')}}" class="btn btn-danger">Regresar <i class="fas fa-undo"></i></a>
                     
                     </div>
                   </form>
-                  <div class="text-center mt-2 ">
-                  <a href="{{route('ingreso_admin')}}" class="btn btn-danger">ADMIN <i class="fas fa-tools"></i> </a>
 
-                  </div>
                   
             </div>
             

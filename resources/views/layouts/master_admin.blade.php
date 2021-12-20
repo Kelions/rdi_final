@@ -21,11 +21,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link " aria-current="page" href="{{route('generar_rdi')}}"><h2 class="fw-normal" style="color:	#36454F ">R.D.I</h2></a>
+            <a class="nav-link" aria-current="page" href="{{route('generar_rdi')}}"><h2 class="fw-normal" style="color:	#36454F ">Solicitudes <i class="fas fa-user"></i> </h2></a>
 
             <a class="nav-link" href="#"><h4 class="fw-normal pt-2" style="color:	#36454F ">   </h4></a>
 
-            <a class=" -5 nav-link" href="{{route('home_proyectos')}}"><h4 class="fw-normal pt-2" style="color:	#36454F "> PROYECTOS</h4></a>
+            <a class=" -5 nav-link" href="{{route('admin_ingreso_proyecto')}}"><h4 class="fw-normal pt-2" style="color:	#36454F "> Ingreso Proyectos</h4></a>
           </div>
         </div>
       </div>
@@ -34,7 +34,7 @@
     
     <main>
 
-     @yield("contenido")
+     @yield("contenido_admin")
         
     </main>
 
