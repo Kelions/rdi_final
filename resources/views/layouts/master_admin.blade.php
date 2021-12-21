@@ -27,7 +27,7 @@
 
             <a class=" -5 nav-link" href="{{route('admin_ingreso_proyecto')}}"><h4 class="fw-normal pt-2" style="color:	#36454F "> Ingreso Proyectos</h4></a>
           </div>
-          <ul>ASDAS</ul>
+          
         </div>
       </div>
     </nav>
