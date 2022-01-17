@@ -37,6 +37,9 @@
             <label class="form-label" for="usuario_apellido">Apellido </label>
             <input class="form-control" type="text" id="usuario_registro_apellido">
 
+            <label class="form-label" for="usuario_clave">Clave </label>
+            <input class="form-control" type="password" id="usuario_registro_clave">
+
             <label class="form-label" for="usuario_rut">Rut </label>
             <input class="form-control" type="text" id="usuario_registro_rut">
             <small class="form-text text-muted">Ejemplo: 19158375-5 </small>
